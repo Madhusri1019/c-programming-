@@ -1,0 +1,16 @@
+#include <stdio.h> 
+int main(){int n=3;
+printf("enter the number: ");
+scanf("%d",&n);
+switch(n)
+{
+	case 1:printf("the number is one");
+	break ;
+	case 2:printf("the number is two");
+	break;
+	case 3:printf("the number is three");
+	break ;
+	default:printf("the number is rational ");
+	return 0;
+}
+}
